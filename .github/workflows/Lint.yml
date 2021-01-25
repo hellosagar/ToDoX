@@ -18,3 +18,5 @@ jobs:
           VALIDATE_MD: false
           VALIDATE_XML: true
           VALIDATE_KOTLIN: true
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@v1.5
