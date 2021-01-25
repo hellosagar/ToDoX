@@ -2,6 +2,7 @@ package com.todox.android
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.foundation.Text
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
@@ -17,22 +18,22 @@ class MainActivity : AppCompatActivity() {
             TODOXTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    Greeting("Rohit Jakhar Code 1")
+//                    Greeting("Rohit Jakhar Code 1")
                 }
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
+//@Composable
+//fun Greeting(name: String) {
+//    Text(text = "Hello $name!")
+//}
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     TODOXTheme {
-        Greeting("Android")
+//        Greeting("Android")
     }
 }
