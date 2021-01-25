@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
             TODOXTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    Greeting("Rohit Jakhar Code 1")
+                    Greeting("Hello World!")
                 }
             }
         }
